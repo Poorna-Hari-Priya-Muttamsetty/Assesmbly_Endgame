@@ -1,16 +1,48 @@
-# React + Vite
+# Assembly: Endgame 🎮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun word-guessing game built with **React** where players try to guess a hidden word before running out of programming languages. Each incorrect guess eliminates a language, and the ultimate goal is to save the programming world from Assembly!
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Interactive Gameplay:** Guess letters to reveal the hidden word.
+- **Keyboard Interaction:** Select letters and track correct and incorrect guesses.
+- **Dynamic Language Chips:** Programming language chips are eliminated as incorrect guesses increase.
+- **Visual Feedback:** Different styles indicate correctly guessed letters, incorrect guesses, and eliminated languages.
+- **Win and Lose Conditions:** Win by guessing the complete word or lose when you run out of attempts.
+- **Farewell Messages:** Display a farewell message when a programming language is eliminated.
+- **Responsive UI:** Clean and interactive game interface.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** – Building reusable UI components and managing game state.
+- **JavaScript (ES6+)** – Game logic and event handling.
+- **HTML5** – Structuring the application.
+- **CSS3** – Styling the game interface and visual states.
+- **clsx** – Applying conditional CSS classes.
 
-## Expanding the ESLint configuration
+## 🧠 Concepts Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React state management with `useState`
+- Rendering lists using `map()`
+- Conditional rendering with ternary operators
+- Derived values based on application state
+- Handling user interactions and click events
+- Array methods such as `includes()`, `every()`, and `filter()`
+- Dynamic CSS classes using `clsx`
+- Component-based UI development
+
+## 🎯 How to Play
+
+1. A hidden word is displayed as blank letter boxes.
+2. Select letters to guess the word.
+3. Correct guesses reveal letters in the word.
+4. Incorrect guesses eliminate programming languages one by one.
+5. Guess the entire word before all programming languages are eliminated to win!
+
+## 📚 What I Learned
+
+Building this project helped me strengthen my React fundamentals, including state management, conditional rendering, event handling, and dynamic UI updates. It also gave me hands-on experience implementing game logic and using CSS classes to reflect changing application states.
+
+---
+
+Built as part of my journey to improve my React and frontend development skills.
